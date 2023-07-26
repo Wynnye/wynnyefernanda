@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="wynrafaella.css">
+<body>
+    <title>cadastro</title>
+
+</head>
+
+<div style='text-align:center'>
+    <h1 id="titulo">Cadastro da Wy</h1>
+    
+    </div>
+<script>
+function pulaLinha (){
+    document.write ("<br>")
+    document.write ("<br>")
+}
+
+function mostra (frase){
+    document.write (frase)
+    pulaLinha ()
+
+}
+
+ alert ("Este é o meu primeiro projeto CSS/JAVASCRIPT/HTML")
+var nome = prompt("Informe seu nome.")
+document.write ("Olá, " + nome + ". Complete suas informações para eu conhecê-lo (a) melhor.")
+</script>
+<script>
+    document.write ("<br>")
+    document.write ("<br>")
+    </script>
+    
+<form>
+    <fieldset classe="grupo">
+        <div classe="campo">
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+            
+        </div>
+        <div classe="campo">
+            <label for="idade"><strong>Idade</strong></label>
+            <input type="text" name="idade" id="idade" required>
+            </div>
+</fieldset>
+</form>
+</body>
+</html>
+ <br>
+ <br>
+
+<div classe="campo">
+        <label><strong>Você trabalha com</strong></label>
+        <label>
+        <input type="radio" name = "devweb" if= "dev"> Teste de software 
+        </label>
+        <label>
+        <input type = "radio" name="devweb" if="dev"> Desenvolvimento de software
+        </label>
+<br>
+<br>
+<br>
+
+        <label><strong>Caso você seja um Dev, de qual lado da aplicação você desenvolve?</strong></label>
+        <label>
+            <br>
+        <input type ="radio" name= "devweb" if="front end">  frontEND
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="devweb" if= "back end">  BackEnd
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="devweb" if= "full stack">  FullSatck
+
+        </label>
+        <br>
+        <br>
+        </div>
+        <div>
+        <label for="senioridade"><strong>Senioridade</strong></label>
+        <select id="senioridade">
+            <option selected disabled value= "">Selecione</option>
+            <option>Junior</option>
+            <option>Pleno</option>
+            <option>Senior</option>
+        </select>
+        </div>
+        <br>
+        <fieldset classe="grupo">
+            <div id="check">
+            <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>    
+            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+            <label for="tecnologia1">HTML</label>
+            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+            <label for="tecnologia2">CSS</label>
+            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JAVASCRIPT">
+            <label for="tecnologia3">JAVA</label>
+            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PYTHON">
+            <label for="tecnologia4">PYTHON</label>
+            <input type="checkbox" id="OUTROS" name="OUTROS" value="OUTROS">
+            <label for="OUTROS">OUTROS</label>
+            <input typ= "Outros">
+        </div>
+        </fieldset>
+<div classe="campo">
+<br>
+<br>
+<label><strong>Conte um pouco da sua experiência</strong></label>
+<br>
+<br>
+<textarea row="30" style = "width: 26em" id="experiencia" name="experiencia"></textarea>
+</div>
+<br>
+ <button classe="botao" type="submit"><a target="_blank" href="file:///C:/Users/PC/Documents/fez.html"> Concluído</a> </button>
+
+    
+
+
+
+</form>
+</body>
+</html>
+
+
+
